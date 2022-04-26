@@ -1,0 +1,43 @@
+<?php //Swag%255CPayPal%255CPaymentsApi%255CAdministration%255CPayPalPaymentController%2523refundPayment
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Core\\Framework\\Routing\\Annotation\\Since'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Since')),
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        clone ($p['Shopware\\Core\\Framework\\Routing\\Annotation\\Acl'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Acl')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Since' => [
+            'value' => [
+                '0.9.0',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                1 => '/api/_action/paypal/refund-payment/{resourceType}/{resourceId}/{orderId}',
+            ],
+            'name' => [
+                1 => 'api.action.paypal.refund_payment',
+            ],
+            'methods' => [
+                1 => [
+                    'POST',
+                ],
+            ],
+        ],
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Acl' => [
+            'value' => [
+                2 => [
+                    'order.editor',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[2],
+    ],
+    []
+); }];

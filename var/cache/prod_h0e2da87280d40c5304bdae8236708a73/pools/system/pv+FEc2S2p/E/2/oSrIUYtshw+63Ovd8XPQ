@@ -1,0 +1,23 @@
+<?php //Swag%255CPayPal%255CWebhook%255CRegistration%255CWebhookSystemConfigController%2523batchSaveConfiguration
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Shopware\\Core\\Framework\\Routing\\Annotation\\Acl'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Acl')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Acl' => [
+            'value' => [
+                [
+                    'system_config:update',
+                    'system_config:create',
+                    'system_config:delete',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

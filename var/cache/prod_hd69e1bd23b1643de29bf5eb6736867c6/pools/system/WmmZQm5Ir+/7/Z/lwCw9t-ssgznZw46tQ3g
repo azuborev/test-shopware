@@ -1,0 +1,253 @@
+<?php //Swag%255CPayPal%255COrdersApi%255CAdministration%255CPayPalOrdersController%2523voidAuthorization
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Core\\Framework\\Routing\\Annotation\\Since'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Since')),
+        clone ($p['OpenApi\\Annotations\\Post'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Post')),
+        clone ($p['OpenApi\\Annotations\\Parameter'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Parameter')),
+        clone ($p['OpenApi\\Annotations\\Schema'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Schema')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Logger\\DefaultLogger'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Logger\\DefaultLogger')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Annotations\\Parameter'],
+        clone $p['OpenApi\\Annotations\\Schema'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['OpenApi\\Annotations\\RequestBody'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\RequestBody')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['OpenApi\\Annotations\\JsonContent'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\JsonContent')),
+        clone ($p['OpenApi\\Annotations\\Property'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Property')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        clone ($p['Shopware\\Core\\Framework\\Routing\\Annotation\\Acl'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Acl')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Since' => [
+            'value' => [
+                '2.0.0',
+            ],
+        ],
+        'stdClass' => [
+            'path' => [
+                1 => '/_action/paypal-v2/void-authorization/{orderTransactionId}/{authorizationId}',
+            ],
+            'tags' => [
+                1 => [
+                    'Admin API',
+                    'PayPal',
+                ],
+            ],
+            'description' => [
+                1 => 'Voids the PayPal authorization and sets the state of the Shopware order transaction accordingly',
+                'ID of the order transaction which contains the PayPal payment',
+                8 => 'ID of the PayPal authorization',
+                18 => 'Partner Attribution ID. See Swag\\PayPal\\RestApi\\PartnerAttributionId',
+                23 => 'Returns status 204 if the voidance was succesful',
+            ],
+            'operationId' => [
+                1 => 'voidAuthorization',
+            ],
+            'parameters' => [
+                1 => [
+                    $o[2],
+                    $o[8],
+                ],
+            ],
+            'requestBody' => [
+                1 => $o[14],
+            ],
+            'responses' => [
+                1 => [
+                    $o[23],
+                ],
+            ],
+            '_context' => [
+                1 => $o[26],
+                $o[6],
+                $o[4],
+                8 => $o[12],
+                $o[10],
+                14 => $o[15],
+                17 => $o[21],
+                $o[19],
+                23 => $o[24],
+            ],
+            'parameter' => [
+                2 => 'orderTransactionId',
+                8 => 'authorizationId',
+            ],
+            'name' => [
+                2 => 'orderTransactionId',
+                8 => 'authorizationId',
+            ],
+            'in' => [
+                2 => 'path',
+                8 => 'path',
+            ],
+            'required' => [
+                2 => true,
+                8 => true,
+            ],
+            'schema' => [
+                2 => $o[3],
+                8 => $o[9],
+            ],
+            'type' => [
+                3 => 'string',
+                9 => 'string',
+                18 => 'string',
+            ],
+            'logger' => [
+                4 => $o[5],
+                6 => $o[7],
+                10 => $o[11],
+                12 => $o[13],
+                15 => $o[16],
+                19 => $o[20],
+                21 => $o[22],
+                24 => $o[25],
+                26 => $o[27],
+            ],
+            'filename' => [
+                4 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                6 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                10 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                12 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                15 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                19 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                21 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                24 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                26 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+            ],
+            'line' => [
+                4 => 1009,
+                6 => 1009,
+                10 => 1009,
+                12 => 1009,
+                15 => 1009,
+                19 => 1009,
+                21 => 1009,
+                24 => 1009,
+                26 => 1009,
+            ],
+            'method' => [
+                4 => 'Annotation',
+                6 => 'Annotation',
+                10 => 'Annotation',
+                12 => 'Annotation',
+                15 => 'Annotation',
+                19 => 'Annotation',
+                21 => 'Annotation',
+                24 => 'Annotation',
+                26 => 'Annotation',
+            ],
+            'class' => [
+                4 => 'DocParser',
+                6 => 'DocParser',
+                10 => 'DocParser',
+                12 => 'DocParser',
+                15 => 'DocParser',
+                19 => 'DocParser',
+                21 => 'DocParser',
+                24 => 'DocParser',
+                26 => 'DocParser',
+            ],
+            'namespace' => [
+                4 => 'Shopware\\Core\\Framework\\Compatibility',
+                6 => 'Shopware\\Core\\Framework\\Compatibility',
+                10 => 'Shopware\\Core\\Framework\\Compatibility',
+                12 => 'Shopware\\Core\\Framework\\Compatibility',
+                15 => 'Shopware\\Core\\Framework\\Compatibility',
+                19 => 'Shopware\\Core\\Framework\\Compatibility',
+                21 => 'Shopware\\Core\\Framework\\Compatibility',
+                24 => 'Shopware\\Core\\Framework\\Compatibility',
+                26 => 'Shopware\\Core\\Framework\\Compatibility',
+            ],
+            'annotations' => [
+                4 => [
+                    $o[3],
+                ],
+                6 => [
+                    $o[2],
+                ],
+                10 => [
+                    $o[9],
+                ],
+                12 => [
+                    $o[8],
+                ],
+                15 => [
+                    $o[14],
+                ],
+                19 => [
+                    $o[18],
+                ],
+                21 => [
+                    $o[17],
+                ],
+                24 => [
+                    $o[23],
+                ],
+                26 => [
+                    $o[1],
+                ],
+            ],
+            '_unmerged' => [
+                14 => [
+                    $o[17],
+                ],
+            ],
+            'properties' => [
+                17 => [
+                    $o[18],
+                ],
+            ],
+            'property' => [
+                18 => 'partnerAttributionId',
+            ],
+            'response' => [
+                23 => '204',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                28 => '/api/_action/paypal-v2/void-authorization/{orderTransactionId}/{authorizationId}',
+            ],
+            'name' => [
+                28 => 'api.action.paypal_v2.void_authorization',
+            ],
+            'methods' => [
+                28 => [
+                    'POST',
+                ],
+            ],
+        ],
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Acl' => [
+            'value' => [
+                29 => [
+                    'order.editor',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[28],
+        $o[29],
+    ],
+    []
+); }];

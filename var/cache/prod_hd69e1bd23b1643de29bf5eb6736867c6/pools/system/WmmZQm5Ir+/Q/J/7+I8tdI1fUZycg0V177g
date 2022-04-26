@@ -1,0 +1,160 @@
+<?php //Swag%255CPayPal%255CCheckout%255CPUI%255CSalesChannel%255CPUIPaymentInstructionsRoute%2523getPaymentInstructions
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Core\\Framework\\Routing\\Annotation\\Since'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Since')),
+        clone ($p['OpenApi\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Get')),
+        clone ($p['OpenApi\\Annotations\\Parameter'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Parameter')),
+        clone ($p['OpenApi\\Annotations\\Schema'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Schema')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Logger\\DefaultLogger'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Logger\\DefaultLogger')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        clone ($p['Shopware\\Core\\Framework\\Routing\\Annotation\\LoginRequired'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\LoginRequired')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Since' => [
+            'value' => [
+                '4.2.0',
+            ],
+        ],
+        'stdClass' => [
+            'path' => [
+                1 => '/store-api/paypal/pui/payment-instructions/{transactionId}',
+            ],
+            'tags' => [
+                1 => [
+                    'Store API',
+                    'PayPal',
+                ],
+            ],
+            'description' => [
+                1 => 'Tries to get payment instructions for PUI payments',
+                'Identifier of the order transaction to be fetched',
+                8 => 'The payment instructions of the order',
+            ],
+            'operationId' => [
+                1 => 'getPUIPaymentInstructions',
+            ],
+            'parameters' => [
+                1 => [
+                    $o[2],
+                ],
+            ],
+            'responses' => [
+                1 => [
+                    $o[8],
+                ],
+            ],
+            '_context' => [
+                1 => $o[11],
+                $o[6],
+                $o[4],
+                8 => $o[9],
+            ],
+            'name' => [
+                2 => 'transactionId',
+            ],
+            'in' => [
+                2 => 'path',
+            ],
+            'required' => [
+                2 => true,
+            ],
+            'schema' => [
+                2 => $o[3],
+            ],
+            'type' => [
+                3 => 'string',
+            ],
+            'pattern' => [
+                3 => '^[0-9a-f]{32}$',
+            ],
+            'logger' => [
+                4 => $o[5],
+                6 => $o[7],
+                9 => $o[10],
+                11 => $o[12],
+            ],
+            'filename' => [
+                4 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                6 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                9 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                11 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+            ],
+            'line' => [
+                4 => 1009,
+                6 => 1009,
+                9 => 1009,
+                11 => 1009,
+            ],
+            'method' => [
+                4 => 'Annotation',
+                6 => 'Annotation',
+                9 => 'Annotation',
+                11 => 'Annotation',
+            ],
+            'class' => [
+                4 => 'DocParser',
+                6 => 'DocParser',
+                9 => 'DocParser',
+                11 => 'DocParser',
+            ],
+            'namespace' => [
+                4 => 'Shopware\\Core\\Framework\\Compatibility',
+                6 => 'Shopware\\Core\\Framework\\Compatibility',
+                9 => 'Shopware\\Core\\Framework\\Compatibility',
+                11 => 'Shopware\\Core\\Framework\\Compatibility',
+            ],
+            'annotations' => [
+                4 => [
+                    $o[3],
+                ],
+                6 => [
+                    $o[2],
+                ],
+                9 => [
+                    $o[8],
+                ],
+                11 => [
+                    $o[1],
+                ],
+            ],
+            'response' => [
+                8 => '200',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                13 => '/store-api/paypal/pui/payment-instructions/{transactionId}',
+            ],
+            'name' => [
+                13 => 'store-api.paypal.pui.payment_instructions',
+            ],
+            'methods' => [
+                13 => [
+                    'GET',
+                ],
+            ],
+        ],
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\LoginRequired' => [
+            'allowGuest' => [
+                14 => true,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[13],
+        $o[14],
+    ],
+    []
+); }];
