@@ -1,0 +1,18 @@
+{
+  "name": "zuborev/basic-plugin",
+  "description": "This is basic plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Zuborev\\BasicPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Zuborev\\BasicPlugin\\ZuborevBasicPlugin",
+    "label": {
+      "de-DE": "This is basic plugin DE",
+      "en-GB": "This is basic plugin EN"
+    }
+  }
+}

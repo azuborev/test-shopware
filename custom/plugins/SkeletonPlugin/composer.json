@@ -1,0 +1,18 @@
+{
+  "name": "w4p/plugin-skeleton",
+  "description": "W4P Skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SkeletonPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SkeletonPlugin\\SkeletonPlugin",
+    "label": {
+      "de-DE": "W4P Skeleton plugin",
+      "en-GB": "W4P Skeleton plugin"
+    }
+  }
+}

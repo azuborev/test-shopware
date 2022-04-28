@@ -1,0 +1,35 @@
+<?php //Sas%255CBlogModule%255CController%255CBlogController%2523ajax
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Storefront\\Framework\\Cache\\Annotation\\HttpCache'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Storefront\\Framework\\Cache\\Annotation\\HttpCache')),
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                1 => '/widgets/blog-search',
+            ],
+            'name' => [
+                1 => 'widgets.blog.search.pagelet',
+            ],
+            'defaults' => [
+                1 => [
+                    'XmlHttpRequest' => true,
+                ],
+            ],
+            'methods' => [
+                1 => [
+                    'GET',
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

@@ -1,13 +1,3 @@
-.sass-cache
-npm-debug.log
-
-/pma/
-/server/
-/SydneySQLBACKUPS/
-/Credis/
-
-.bash_history
-
 #IDE's
 .idea
 .projects
@@ -72,14 +62,4 @@ sql-dump-*.sql
 .env.*
 !.env.example
 
-# Vendor (e.g. Composer)
-vendor/*
-!vendor/.gitkeep
-
-# Node Package Manager
-node_modules
-
-# Vagrant
-bin
-.vagrant
 

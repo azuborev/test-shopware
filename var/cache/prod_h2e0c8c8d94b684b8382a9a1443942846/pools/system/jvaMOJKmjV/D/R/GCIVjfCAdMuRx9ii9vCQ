@@ -1,0 +1,223 @@
+<?php //Sas%255CBlogModule%255CController%255CStoreApi%255CBlogController%2523load
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Core\\Framework\\Routing\\Annotation\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Entity')),
+        clone ($p['OpenApi\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Get')),
+        clone ($p['OpenApi\\Annotations\\Parameter'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Parameter')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Logger\\DefaultLogger'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Logger\\DefaultLogger')),
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['OpenApi\\Annotations\\JsonContent'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\JsonContent')),
+        clone ($p['OpenApi\\Annotations\\Property'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Property')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Annotations\\Property'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Annotations\\Property'],
+        clone ($p['OpenApi\\Annotations\\Items'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Items')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Logger\\DefaultLogger'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Entity' => [
+            'value' => [
+                'sas_blog_entries',
+            ],
+        ],
+        'stdClass' => [
+            'path' => [
+                1 => '/store-api/blog',
+            ],
+            'tags' => [
+                1 => [
+                    'Store API',
+                    'Blog',
+                ],
+            ],
+            'summary' => [
+                1 => 'This route can be used to load the sas_blog_entries by specific filters',
+            ],
+            'operationId' => [
+                1 => 'listBlog',
+            ],
+            'parameters' => [
+                1 => [
+                    $o[2],
+                ],
+            ],
+            'responses' => [
+                1 => [
+                    $o[5],
+                ],
+            ],
+            '_context' => [
+                1 => $o[23],
+                $o[3],
+                5 => $o[6],
+                8 => $o[21],
+                $o[10],
+                12 => $o[13],
+                15 => $o[19],
+                $o[17],
+            ],
+            'name' => [
+                2 => 'Api-Basic-Parameters',
+            ],
+            'logger' => [
+                3 => $o[4],
+                6 => $o[7],
+                10 => $o[11],
+                13 => $o[14],
+                17 => $o[18],
+                19 => $o[20],
+                21 => $o[22],
+                23 => $o[24],
+            ],
+            'filename' => [
+                3 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                6 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                10 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                13 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                17 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                19 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                21 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+                23 => '/var/www/shopwareloc/vendor/shopware/core/Framework/Compatibility/DocParser.php',
+            ],
+            'line' => [
+                3 => 1009,
+                6 => 1009,
+                10 => 1009,
+                13 => 1009,
+                17 => 1009,
+                19 => 1009,
+                21 => 1009,
+                23 => 1009,
+            ],
+            'method' => [
+                3 => 'Annotation',
+                6 => 'Annotation',
+                10 => 'Annotation',
+                13 => 'Annotation',
+                17 => 'Annotation',
+                19 => 'Annotation',
+                21 => 'Annotation',
+                23 => 'Annotation',
+            ],
+            'class' => [
+                3 => 'DocParser',
+                6 => 'DocParser',
+                10 => 'DocParser',
+                13 => 'DocParser',
+                17 => 'DocParser',
+                19 => 'DocParser',
+                21 => 'DocParser',
+                23 => 'DocParser',
+            ],
+            'namespace' => [
+                3 => 'Shopware\\Core\\Framework\\Compatibility',
+                6 => 'Shopware\\Core\\Framework\\Compatibility',
+                10 => 'Shopware\\Core\\Framework\\Compatibility',
+                13 => 'Shopware\\Core\\Framework\\Compatibility',
+                17 => 'Shopware\\Core\\Framework\\Compatibility',
+                19 => 'Shopware\\Core\\Framework\\Compatibility',
+                21 => 'Shopware\\Core\\Framework\\Compatibility',
+                23 => 'Shopware\\Core\\Framework\\Compatibility',
+            ],
+            'annotations' => [
+                3 => [
+                    $o[2],
+                ],
+                6 => [
+                    $o[5],
+                ],
+                10 => [
+                    $o[9],
+                ],
+                13 => [
+                    $o[12],
+                ],
+                17 => [
+                    $o[16],
+                ],
+                19 => [
+                    $o[15],
+                ],
+                21 => [
+                    $o[8],
+                ],
+                23 => [
+                    $o[1],
+                ],
+            ],
+            'response' => [
+                5 => '200',
+            ],
+            'description' => [
+                5 => '',
+                9 => 'Total amount',
+                12 => 'aggregation result',
+            ],
+            '_unmerged' => [
+                5 => [
+                    $o[8],
+                ],
+            ],
+            'properties' => [
+                8 => [
+                    $o[9],
+                    $o[12],
+                    $o[15],
+                ],
+            ],
+            'type' => [
+                8 => 'object',
+                'integer',
+                12 => 'object',
+                15 => 'array',
+            ],
+            'property' => [
+                9 => 'total',
+                12 => 'aggregations',
+                15 => 'elements',
+            ],
+            'items' => [
+                15 => $o[16],
+            ],
+            'ref' => [
+                16 => '#/components/schemas/blog_entities_flat',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                25 => '/store-api/blog',
+            ],
+            'name' => [
+                25 => 'store-api.sas.blog.load',
+            ],
+            'methods' => [
+                25 => [
+                    'GET',
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[25],
+    ],
+    []
+); }];
